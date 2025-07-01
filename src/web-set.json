@@ -169,7 +169,18 @@
           "params": {
             "prompt": "Prompt untuk Buat gambar."
           }
-        }       
+        },
+        {
+         "name": "AI Art Generator",
+         "desc": "Generate AI Art dari prompt",
+         "path": "/ai/aiart?prompt=anjing keren&style=Realistic",
+         "status": "ready",
+         "requireKey": false,
+         "params": {
+          "prompt": "teks prompt gambar",
+          "style": "Realistic atau Anime"
+         }
+        }
       ]
     },
     {
