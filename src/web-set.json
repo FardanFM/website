@@ -1,5 +1,5 @@
 {
-  "name": "VarShade Apis",
+  "name": "VarShade Api",
   "version": "v1.0",
   "description": "Rest Api Simple",
   "bannerImage": "https://files.catbox.moe/0a58nf.jpg",
@@ -109,7 +109,18 @@
           "params": {
             "url": "url dari youtube"
           }
-        }                
+        },
+        {
+          "name": "YTMP3 Plus Downloader",
+          "desc": "Download YouTube dalam format MP3 atau MP4 via ytmp3.plus",
+          "path": "/downloader/ytdl?url=URL&format=mp3",
+          "status": "ready",
+          "requireKey": false,
+          "params": {
+            "url": "URL video YouTube",
+           "format": "mp3 atau mp4 (opsional, default mp3)"
+         }
+        }
       ]
     },
     {
