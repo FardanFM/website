@@ -33,7 +33,7 @@ async function aiart(prompt, style = 'Anime') {
 
         case 'process_completed':
           socket.close();
-          resolve(`https://app.yimeta.ai/file=${d.output.data[0][0].name}`);
+          resolve('https://art-global.yimeta.ai/anime/' + d.output.data[0][0].name);
           break;
 
         default:
