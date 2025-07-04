@@ -120,6 +120,16 @@
             "url": "URL video YouTube",
            "format": "mp3 atau mp4 (opsional, default mp3)"
          }
+        },
+        {
+          "name": "AIO All In One Downloader",
+          "desc": "Downloader Semua Video Dalam 1 Api",
+          "path": "/downloader/aio?url=",
+          "status": "ready",
+          "requireKey": false,
+          "params": {
+            "url": "URL video https://"
+         }
         }
       ]
     },
