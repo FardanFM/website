@@ -244,6 +244,23 @@
           "params": {
             "code": "masukkan codemu"
           }
+        },
+        {
+        "name": "Temp Mail Generator",
+        "desc": "Buat email sementara untuk daftar akun, verifikasi, dan testing tanpa email asli.",
+        "path": "/tools/tempail",
+        "status": "active",
+        "requireKey": false,
+        "params": {
+        "action": "create/get/messages",
+         "token": "token_email_temp",
+         "id": "message_id"
+          },
+         "examples": [
+           "/tools/tempail?action=create",
+           "/tools/tempail?action=get&token=example_token",
+           "/tools/tempail?action=messages&id=123456"
+          ]
         }
       ]
     }
