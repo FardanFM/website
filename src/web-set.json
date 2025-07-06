@@ -249,7 +249,7 @@
         "name": "Temp Mail Generator",
         "desc": "Buat email sementara untuk daftar akun, verifikasi, dan testing tanpa email asli.",
         "path": "/tools/tempail",
-        "status": "active",
+        "status": "ready",
         "requireKey": false,
         "params": {
         "action": "create/get/messages",
