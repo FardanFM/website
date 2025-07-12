@@ -248,7 +248,7 @@
         {
           "name": "Upscale Image",
           "desc": "Membuat Foto/image Jadi HD",
-          "path": "/tools/upscale?url=",
+          "path": "/tools/upscale?imageUrl=",
           "status": "ready",
           "requireKey": false,
           "params": {
