@@ -246,6 +246,16 @@
           }
         },
         {
+          "name": "Upscale Image",
+          "desc": "Membuat Foto/image Jadi HD",
+          "path": "/tools/upscale?text=",
+          "status": "ready",
+          "requireKey": false,
+          "params": {
+            "code": "masukkan link"
+          }
+        },
+        {
         "name": "Temp Mail Generator",
         "desc": "Buat email sementara untuk daftar akun, verifikasi, dan testing tanpa email asli.",
         "path": "/tools/tempail",
